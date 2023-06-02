@@ -1,0 +1,138 @@
+.container {
+  width: 100%;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 120px;
+  background: whitesmoke;
+  font-family: "Karla", sans-serif;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 50px;
+}
+
+h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 40px;
+}
+
+.paragraph {
+  font-size: 25px;
+  display: flex;
+  width: 750px;
+  opacity: 50%;
+}
+
+.bottom-left-container {
+  display: flex;
+  flex-direction: column;
+  background: hsl(179, 62%, 43%);
+  padding: 60px 0px;
+  height: 300px;
+  width: 600px;
+  color: whitesmoke;
+  padding-left: 120px;
+}
+
+button {
+  width: 400px;
+  color: whitesmoke;
+  background: hsl(71, 73%, 54%);
+  height: 300px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 20px 0px;
+}
+
+.subscription {
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+.combo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.price {
+  font-size: 60px;
+}
+
+.monthly {
+  opacity: 80%;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.access {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+.bottom-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 40px;
+  width: 300px;
+}
+
+.bottom-container {
+  display: flex;
+  align-items: center;
+  background: hsl(179, 35%, 58%);
+  color: whitesmoke;
+  font-family: "Karla", sans-serif;
+}
+
+.why {
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+.reason {
+  font-size: 10px;
+  width: 180px;
+}
+
+p {
+  height: 20px;
+  font-size: 20px;
+  opacity: 100%;
+  display: flex;
+  width: 750px;
+}
+
+@media only screen and (max-width: 768px) {
+  .top-container {
+    display: flex;
+    width: 100%;
+    height: 700px;
+  }
+
+  .bottom-container {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+  }
+
+  .bottom-left-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+  }
+
+  .bottom-right-container {
+    display: flex;
+    height: 600px;
+    padding-bottom: 100px;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
